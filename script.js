@@ -1,6 +1,6 @@
 function detectFake() {
   const text = document.getElementById("newsText").value.toLowerCase();
-  const fakeWords = ["shocking", "unbelievable", "miracle", "click here", "exclusive", "breaking now"];
+  const fakeWords = ["shocking", "unbelievable", ” click here", "exclusive", "breaking now"];
   const found = fakeWords.filter(word => text.includes(word));
   const result = document.getElementById("result");
 
